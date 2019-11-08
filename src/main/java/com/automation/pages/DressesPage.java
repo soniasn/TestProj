@@ -87,6 +87,8 @@ public class DressesPage extends TestBase {
 	public void closePopUpWindow() {
 		WebElement popUpClose = driver.findElement(By.xpath("//span[@title='Close window']"));
 		pauseForTimeInSeconds(3);
+		WebDriverWait driverWait = new WebDriverWait(driver, 120);
+		driverWait.until(ExpectedConditions.elementToBeClickable(popUpClose));
 		popUpClose.click();
 	}
 

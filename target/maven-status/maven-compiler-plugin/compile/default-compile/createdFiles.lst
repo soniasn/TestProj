@@ -1,0 +1,5 @@
+com\automation\base\TestBase.class
+com\automation\pages\HomePage.class
+com\automation\util\Constants.class
+com\automation\pages\DressesPage.class
+com\automation\pages\ShoppingCartPage.class
